@@ -1,0 +1,223 @@
+
+
+h1 {
+ text-align: center;
+ padding: 10px;
+ color: #427790;
+}
+
+.top-text {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#7E8DE6;
+}
+
+
+.navbar {
+    background-color:#427790 ;
+    color: white;
+}
+
+.ms-1 {
+    margin-left: 0.25rem !important;
+}
+
+.centre {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  display: inline-block;
+  padding-left: 580px;
+  padding-top: 150px;
+}
+
+#myButton {
+    text-align: center;
+    background-color: #427790;
+    margin-bottom: 150px;
+    float:inherit;
+    border-radius: 15px;
+    color:  white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.marquee {
+    height: 45px;
+    color: aliceblue;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    display: flex;
+    background-color: #8ba5b5;
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-repeat:no-repeat;
+}
+
+.heroimg {
+    background-image: url(/Assets/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: aliceblue;
+    font-size: 78px;
+    padding-top: 200px;
+    font-weight: bold;
+}
+
+.content1 {
+width: 100%;
+padding: 50px;
+color: whitesmoke;
+display: inline-block;
+align-items: center;
+background-color: #427790;
+}
+
+.content1 .line {
+    align-items: left;
+    display: inline-block;
+}
+
+.content1 p {
+    float: left;
+    width: 70%;
+    
+}
+
+.content1 h1 {
+    color: aliceblue;
+    display: inline-block;
+}
+
+
+.content1 .ctn {
+    color:#427790;
+    background-color: aliceblue;
+    padding: 9px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    float: right;
+    margin-right: 80px;
+    display: inline-block;
+}
+
+.content1 .ctn:hover {
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 60%;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 15px;
+}
+
+.submit {
+    background-color:#427790;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+} 
+
+.pics1 {
+    display: inline-flex;
+    height: 150px;
+    padding: 10px;
+    background-color: #9dc1d2;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.pics1 .img1 {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pics1 .img2 {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pics1 .img3 {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pics1 .img4 {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pics1 .img5 {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pics1 .img6 {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.container {
+    flex: auto;
+    width: 40%;
+}
+
+input[type=checkbox] {
+    display: none;
+  }
+
+  .zoom-container {
+    background-color:#8ba5b5;
+  }
+  
+  .zoom-container img {
+    margin: 100px;
+    transition: transform 0.25s ease;
+  }
+  
+  input[type=checkbox]:checked ~ label > img {
+    transform: scale(2);
+    cursor: zoom-out;
+  }
+
+.top-text {
+    color: #427790;
+}
+
+.wfelement {
+    display: inline-flex;
+    color: aliceblue;
+    height: 200px;
+}
+
+.wfelement .wftext1 {
+    background-color: #427790;
+}
+
+.wfelement .wftext2 {
+    background-color: #1a3d4d;
+    color: aliceblue;
+    
+}
